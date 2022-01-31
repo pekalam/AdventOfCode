@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.13.1" />
+    <PackageReference Include="Spectre.Console" Version="0.43.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AdventOfCode\Day1.fsproj" />
+    <ProjectReference Include="..\Day10Cs\Day10Cs.csproj" />
+    <ProjectReference Include="..\Day11Cs\Day11Cs.csproj" />
+    <ProjectReference Include="..\Day12\Day12.fsproj" />
+    <ProjectReference Include="..\Day2\Day2.fsproj" />
+    <ProjectReference Include="..\Day3\Day3.fsproj" />
+    <ProjectReference Include="..\Day4Cs\Day4Cs.csproj" />
+    <ProjectReference Include="..\Day4\Day4.fsproj" />
+    <ProjectReference Include="..\Day5\Day5.fsproj" />
+    <ProjectReference Include="..\Day6Cs\Day6Cs.csproj" />
+    <ProjectReference Include="..\Day7Cs\Day7Cs.csproj" />
+    <ProjectReference Include="..\Day8\Day8.fsproj" />
+    <ProjectReference Include="..\Day9Cs\Day9Cs.csproj" />
+  </ItemGroup>
+
+</Project>
